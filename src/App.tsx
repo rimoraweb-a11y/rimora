@@ -1,6 +1,9 @@
 import React from 'react'
 
 export default function App() {
+  const whatsappNumber = "22243207257";
+  const emailAddress = "rimoraweb@gmail.com";
+
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
@@ -20,7 +23,7 @@ export default function App() {
             <a href="#contact" className="text-gray-700 hover:text-orange-600 transition">Contact</a>
           </nav>
 
-          <a href="https://wa.me/22250000000" target="_blank" rel="noopener noreferrer" className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition flex items-center gap-2">
+          <a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noopener noreferrer" className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition flex items-center gap-2">
             <span>WhatsApp</span>
           </a>
         </div>
@@ -42,7 +45,7 @@ export default function App() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <a href="https://wa.me/22250000000" target="_blank" rel="noopener noreferrer" className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold transition text-center">
+              <a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noopener noreferrer" className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold transition text-center">
                 Contactez-nous sur WhatsApp
               </a>
               <button className="border-2 border-yellow-400 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-50 transition">
@@ -180,7 +183,7 @@ export default function App() {
           <p className="text-lg text-orange-100 mb-8">
             Contactez-nous dès aujourd'hui pour une consultation gratuite. Pas d'engagement, juste des conseils adaptés à votre entreprise.
           </p>
-          <a href="https://wa.me/22250000000" target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-orange-600 hover:bg-orange-50 px-8 py-3 rounded-lg font-semibold transition">
+          <a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-orange-600 hover:bg-orange-50 px-8 py-3 rounded-lg font-semibold transition">
             Contactez-nous sur WhatsApp
           </a>
           <p className="text-orange-100 mt-6 text-sm">
@@ -217,8 +220,8 @@ export default function App() {
             <div>
               <h3 className="font-bold text-white mb-4">Contact</h3>
               <p className="text-sm mb-2">Nouakchott, Mauritanie</p>
-              <p className="text-sm mb-2">Email: info@rimora.mr</p>
-              <a href="https://wa.me/22250000000" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 transition">WhatsApp</a>
+              <p className="text-sm mb-2">Email: {emailAddress}</p>
+              <a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 transition">WhatsApp</a>
             </div>
           </div>
 

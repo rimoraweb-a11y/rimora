@@ -61,8 +61,8 @@ rimora/
 
 ## Contact
 
-- **Email** : info@rimora.mr
-- **WhatsApp** : [Contactez-nous](https://wa.me/22250000000)
+- **Email** : rimoraweb@gmail.com
+- **WhatsApp** : [Contactez-nous](https://wa.me/22243207257)
 - **Localisation** : Nouakchott, Mauritanie
 
 ## Licence
